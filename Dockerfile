@@ -11,4 +11,4 @@ COPY app.rb /app.rb
 EXPOSE 4567
 
 # Command to run the application
-CMD ["ruby", "/app.rb", "-o", "0.0.0.0"]
+CMD ["ruby", "/app.rb"]
