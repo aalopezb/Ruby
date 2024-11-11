@@ -17,7 +17,7 @@ ruby/ <br>
 
 ### 1. Build the Docker Image
 docker build -t hello_ruby .<br>
-docker run -p 8080:8080 hello_ruby<br>
+docker run -p 4567:4567 hello_ruby<br>
 Open your browser and navigate to: http://localhost:4567
 
 ## Creator
